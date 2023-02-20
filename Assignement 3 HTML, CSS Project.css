@@ -4,6 +4,7 @@
     overflow: hidden;
     box-sizing: border-box;
 }
+/*   Body contant here*/
 body{
     background-image: url("BackgroundImage.jpg");
     background-repeat: no-repeat;
@@ -11,6 +12,7 @@ body{
     background-size: cover;
 
 }
+/*  Navigation of web page start from here*/
 .Navigation{
     display: flex;
     align-items: center;
@@ -73,7 +75,8 @@ body{
     border-radius: 3px;
     padding: 4px 8px;
 }
-/* Bottom Contant */
+/* Bottom Contant start from here */
+
 .BottomContant{
     display: flex;
     align-items: center;
