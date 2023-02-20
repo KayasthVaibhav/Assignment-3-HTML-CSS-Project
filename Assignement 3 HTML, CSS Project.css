@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("BackgroundImage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+.Navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+}
+.Navigation img{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 125px;
+ height: 30px;
+}
+
+.Navigation div ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline-end: 380px;  
+    background-color: black;
+    gap: 10px;
+
+}
+.Navigation div ul span{
+    font-size: 50px;
+    color: grey;
+    padding-left: 40px;
+}
+.Navigation div ul li{
+    list-style: none;
+    padding: 10px 20px;
+    color: white;
+}
+.Navigation div ul li:hover{
+     font-weight: 600;
+    color: white;
+    text-decoration: underline;
+}
+
+.Navigation button{
+    color: white;
+    background-color: rgb(175, 0, 172);
+    border: 2px solid  rgb(175, 0, 172);
+    text-align: center;
+    font: initial;
+    border-radius: 3px;
+    padding: 4px 8px;
+}
+.Navigation button:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    background-color: #0cd133;
+    border: 2px solid #0cd120;
+    text-align: center;
+    font: initial;
+    border-radius: 3px;
+    padding: 4px 8px;
+}
+/* Bottom Contant */
+.BottomContant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+.BottomContant h1{
+font-size: 60px;
+color: white;
+
+}
+
+.BottomContant p{
+    font-size: 22px;
+    color: white;
+    padding: 25px;
+    
+}
+.BottomContant button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(175, 0, 172);
+    border: 2px solid  rgb(175, 0, 172);
+    text-align: center;
+    font: icon;
+    border-radius: 7px;
+    padding: 8px 15px;
+    margin-left: 100px;
+}
+.BottomContant button:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    background-color: #0cd133;
+    border: 2px solid #0cd120;
+    text-align: center;
+    font: icon;
+    border-radius: 7px;
+    padding: 8px 15px;
+    margin-left: 100px;
+}
